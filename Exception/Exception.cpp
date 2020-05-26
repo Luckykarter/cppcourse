@@ -14,7 +14,7 @@ using namespace std;
 //	const char * what() const throw() {return msg; }
 //};
 
-const exception e_ouch("ouch!!");
+const exception e_ouch("change ouch!!");
 const exception e_bad("very bad code!");
 
 void broken() {
