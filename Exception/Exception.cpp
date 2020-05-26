@@ -15,7 +15,7 @@ using namespace std;
 //};
 
 const exception e_ouch("ouch!!");
-const exception e_bad("bad code!");
+const exception e_bad("very bad code!");
 
 void broken() {
 	cout << "this is a broken function" << endl;
