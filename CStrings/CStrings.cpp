@@ -9,7 +9,7 @@ int main()
 {
 	const static size_t maxbuf = 128; //buffer size
 	const char * s1 = "String one";
-	const char * s2 = "String two";
+	const char * s2 = "String two_";
 	char sd1[maxbuf];
 	char sd2[maxbuf];
 	char * cp = nullptr;
