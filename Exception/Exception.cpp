@@ -28,7 +28,7 @@ int main()
 	{
 		broken();
 	}
-	catch (const std::exception& e)
+	catch (const exception& e)
 	{
 		cout << e.what() << endl;
 	}
