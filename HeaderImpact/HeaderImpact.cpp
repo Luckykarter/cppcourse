@@ -29,7 +29,7 @@ int main()
             cout << "top element: " << ststr.top() << endl;
             cout << "element " << ststr.pop() << " popped" << endl;
         }
-
+        cout << typeid(ststr).name() << endl;
 
     }
     catch(const exception& e) {
