@@ -7,6 +7,12 @@
 #include <vector>
 using namespace std;
 
+template <typename T>
+void printV(const vector<T>& v) {
+	for (auto item : v) cout << item << ' ';
+	cout << endl;
+}
+
 int main()
 {
 	vector<int> vi1 = { 1, 2, 3, 4, 5, 6, 7 };
@@ -25,12 +31,13 @@ int main()
 		cout << *it << ' ';
 	}
 
-	vi1.insert(vi1.begin() + 0, 99); //insert at position
+	vi1.insert(vi1.begin() + 4, 99); //insert at position
 	vi1.push_back(55); //at the end
 	cout << endl;
 	for (auto it : vi1) {
 		cout << it << ' ';
 	}
+	vi1.pop_back();
 
 	vi1.insert(vi1.end(), 88);
 	cout << endl;
@@ -44,8 +51,20 @@ int main()
 	cout << endl << "Index: " << endl;
 	cout << "element at 5: " << vi1[5] << endl;
 	cout << "element at 5: " << vi1.at(5) << endl;
+	cout << endl;
+	// create vector with repeated values:
+	vector <int> vi2(10, 0);
+	vector<string> viS(4, "string");
+	printV(vi2);
+	printV(vi1);
+	printV(viS);
+	auto v3(viS);
+	printV(v3);
 
-
+	auto v5(move(v3));
+	printV(v5);
+	cout << "moved" << endl;
+	printV(v3);
 
 
 }
