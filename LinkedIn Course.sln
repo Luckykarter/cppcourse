@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameOfChips", "GameOfChips\GameOfChips.vcxproj", "{715460C5-0961-49C8-9C85-CAA3FC8DCE9F}"
 EndProject
@@ -38,6 +38,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOstream", "IOstream\IOstream.vcxproj", "{79702AB0-12D0-4863-8CD0-E0EE04774DE5}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exception", "Exception\Exception.vcxproj", "{CF6A0359-28C0-4462-B223-32FAD9E56B1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeaderImpact", "HeaderImpact\HeaderImpact.vcxproj", "{CE8BFE78-44FA-44BA-A0FC-A83F2FBC6DB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +193,14 @@ Global
 		{CF6A0359-28C0-4462-B223-32FAD9E56B1F}.Release|x64.Build.0 = Release|x64
 		{CF6A0359-28C0-4462-B223-32FAD9E56B1F}.Release|x86.ActiveCfg = Release|Win32
 		{CF6A0359-28C0-4462-B223-32FAD9E56B1F}.Release|x86.Build.0 = Release|Win32
+		{CE8BFE78-44FA-44BA-A0FC-A83F2FBC6DB9}.Debug|x64.ActiveCfg = Debug|x64
+		{CE8BFE78-44FA-44BA-A0FC-A83F2FBC6DB9}.Debug|x64.Build.0 = Debug|x64
+		{CE8BFE78-44FA-44BA-A0FC-A83F2FBC6DB9}.Debug|x86.ActiveCfg = Debug|Win32
+		{CE8BFE78-44FA-44BA-A0FC-A83F2FBC6DB9}.Debug|x86.Build.0 = Debug|Win32
+		{CE8BFE78-44FA-44BA-A0FC-A83F2FBC6DB9}.Release|x64.ActiveCfg = Release|x64
+		{CE8BFE78-44FA-44BA-A0FC-A83F2FBC6DB9}.Release|x64.Build.0 = Release|x64
+		{CE8BFE78-44FA-44BA-A0FC-A83F2FBC6DB9}.Release|x86.ActiveCfg = Release|Win32
+		{CE8BFE78-44FA-44BA-A0FC-A83F2FBC6DB9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

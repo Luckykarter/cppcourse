@@ -6,6 +6,14 @@
 #include <string>
 using namespace std;
 
+template<typename T>
+T pi = T(3.1415926535897932385L);
+
+template<typename T>
+T area_of_circle(const T& r) {
+	return r * r * pi<T>;
+}
+
 template <typename T>
 T testType(T a, T b) {
 	if (typeid(a) == typeid(int))
@@ -19,12 +27,18 @@ T testType(T a, T b) {
 	return (a > b ? a : b);
 }
 
+
+
+
 int main()
 {
 	string a = "znine";
 	string b = "zztest";
 	cout << testType<string>(a, b) << endl;
-	cout << testType(5, 3);
+	cout << testType(5, 3) << endl;
+	cout.precision(20);
+	cout << pi<long double> << endl;
+	cout << area_of_circle<long double>(3) << endl;
 	
 
 }
