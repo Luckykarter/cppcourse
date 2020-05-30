@@ -1,39 +1,23 @@
-// Deque.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// StdStack.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-// deque is optimize for push and pop from ends
-
 #include <iostream>
-#include <deque>
-#include <string>
+#include <stack>
+#include <vector>
 using namespace std;
-template <typename T>
-void reportdeq(T& d) {
-    size_t sz = d.size();
-    cout << "size: " << sz;
-    if (sz) cout << " front: " << d.front() << " back: " << d.back();
-    cout << endl;
-}
 
-template<typename T>
-void printD(T& d) {
-    for (auto v : d) {
-        cout << v << " ";
-    }
-    cout << endl;
-}
 
 int main()
 {
-    deque<string> d1 = { "one", "two", "three" };
-    d1.push_back("four");
-    d1.push_front("zero");
-    printD(d1);
-    d1.pop_front();
-    printD(d1);
-    d1.pop_back();
-    printD(d1);
-    
+	vector<int> v1 = { 1, 2, 3, 4, 5 };
+	stack<int, vector<int>> stk1(v1);
+
+	stk1.push(42);
+	while (!stk1.empty()) {
+		cout << stk1.top() << endl;
+		stk1.pop();
+	}
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

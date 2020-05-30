@@ -1,39 +1,21 @@
-// Deque.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Queue.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-// deque is optimize for push and pop from ends
-
 #include <iostream>
-#include <deque>
+#include <queue>
 #include <string>
-using namespace std;
-template <typename T>
-void reportdeq(T& d) {
-    size_t sz = d.size();
-    cout << "size: " << sz;
-    if (sz) cout << " front: " << d.front() << " back: " << d.back();
-    cout << endl;
-}
+#include <list>
 
-template<typename T>
-void printD(T& d) {
-    for (auto v : d) {
-        cout << v << " ";
-    }
-    cout << endl;
-}
+using namespace std;
+
+
 
 int main()
 {
-    deque<string> d1 = { "one", "two", "three" };
-    d1.push_back("four");
-    d1.push_front("zero");
-    printD(d1);
-    d1.pop_front();
-    printD(d1);
-    d1.pop_back();
-    printD(d1);
-    
+	list<int> l1 = { 1, 2, 3, 4, 5, 6 };
+	queue<int, list<int>> q1(l1); //initialize queue from the list
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
