@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set", "Set\Set.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Map_Dictionary", "Map_Dictionary\Map_Dictionary.vcxproj", "{A56AC208-FACE-4D33-BA54-3F7FF8571B66}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiThread", "MultiThread\MultiThread.vcxproj", "{6C953D59-331B-4D42-A6B7-C1F33025ADCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{A56AC208-FACE-4D33-BA54-3F7FF8571B66}.Release|x64.Build.0 = Release|x64
 		{A56AC208-FACE-4D33-BA54-3F7FF8571B66}.Release|x86.ActiveCfg = Release|Win32
 		{A56AC208-FACE-4D33-BA54-3F7FF8571B66}.Release|x86.Build.0 = Release|Win32
+		{6C953D59-331B-4D42-A6B7-C1F33025ADCA}.Debug|x64.ActiveCfg = Debug|x64
+		{6C953D59-331B-4D42-A6B7-C1F33025ADCA}.Debug|x64.Build.0 = Debug|x64
+		{6C953D59-331B-4D42-A6B7-C1F33025ADCA}.Debug|x86.ActiveCfg = Debug|Win32
+		{6C953D59-331B-4D42-A6B7-C1F33025ADCA}.Debug|x86.Build.0 = Debug|Win32
+		{6C953D59-331B-4D42-A6B7-C1F33025ADCA}.Release|x64.ActiveCfg = Release|x64
+		{6C953D59-331B-4D42-A6B7-C1F33025ADCA}.Release|x64.Build.0 = Release|x64
+		{6C953D59-331B-4D42-A6B7-C1F33025ADCA}.Release|x86.ActiveCfg = Release|Win32
+		{6C953D59-331B-4D42-A6B7-C1F33025ADCA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
