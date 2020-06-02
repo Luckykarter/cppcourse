@@ -16,4 +16,3 @@ const char title_case::operator() (const char c) {
     else _last = (!_last || isblank(_last)) ? toupper(c) : c;
     return _last;
 }
-
