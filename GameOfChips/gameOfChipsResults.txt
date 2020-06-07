@@ -14,3 +14,4 @@ Winner is: Egor. It took 9 moves
 Winner is: Egor. It took 5 moves
 Winner is: Egir. It took 9 moves
 Winner is: jk. It took 9 moves
+Winner is: AI. It took 10 moves
