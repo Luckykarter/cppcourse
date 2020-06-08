@@ -16,7 +16,7 @@
 using namespace std;
 namespace fs = std::__fs::filesystem;
 
-fs::path baseDir(".");
+fs::path baseDir;
 map<string, string> arguments;
 map<string, string> PROMPTS = {
     {"-b", "Enter base directory: "},
